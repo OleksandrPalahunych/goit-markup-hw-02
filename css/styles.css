@@ -14,7 +14,8 @@ body{
 }
 button{
     cursor: pointer;
-    font-family: inherit;
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
 }
 /*commom styles start*/
 .link{
@@ -54,6 +55,7 @@ font-weight: 500;
     color: var(--accent-color);
 }
 .logo{
+    font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height:1.19;
@@ -101,6 +103,10 @@ background-color: var(--darck-background-color);
         letter-spacing: 0.06em;
         color: var(--primary-background-color);
  }
+ .button:hover,
+ .button:active{
+background: #188CE8;
+ }
 
  /* features styles*/
 
@@ -131,7 +137,7 @@ background-color: var(--darck-background-color);
 
  /*team styles*/
 
- .team-tittle{
+ .team-title{
        font-weight: 500;
         font-size: 16px;
         line-height: 1.9;
@@ -166,7 +172,7 @@ background-color: var(--darck-background-color);
  }
 
  /* portfolio styles */
-.porfolio-button{
+.portfolio-button{
         font-weight: 500;
         font-size: 16px;
         line-height: 0.62;
