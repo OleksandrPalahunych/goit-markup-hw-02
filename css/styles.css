@@ -48,7 +48,9 @@ button{
 .header-link:focus{
     color:var(--accent-color);
 }
-
+.header-group{
+    font-style: normal;
+}
 .header-contact{
     font-family: var(--primary-font);
     font-style: normal;
@@ -73,7 +75,7 @@ button{
     text-transform: uppercase;
     color: var(--button-color);
 }
-.logo2{
+.header-logo{
         font-family: var(--secondary-font);
         font-style: normal;
         font-weight: 800;
@@ -81,15 +83,7 @@ button{
         line-height: 1.16;
         letter-spacing: 0.03em;
         color:#000;
-}
-.logo3{
-        font-family: var(--secondary-font);
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        color: var(--text-white-color);
+
 
 }
 /*head styles*/
@@ -196,7 +190,15 @@ background-color: var(--accent-color);
  }
 
  /*footer styles*/
-
+ .footer-logo {
+     font-family: var(--secondary-font);
+     font-style: normal;
+     font-weight: 800;
+     font-size: 18px;
+     line-height: 1.16;
+     letter-spacing: 0.03em;
+     color: var(--text-white-color);
+ }
  .footer{
     background-color: var(--dark-background-color);
  }
