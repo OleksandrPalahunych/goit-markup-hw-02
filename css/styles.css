@@ -13,6 +13,8 @@
 }
 body{
     font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+    background-color: var(--primary-background-color);
     
 }
 button{
@@ -61,14 +63,15 @@ button{
 .header-contact:focus{
     color: var(--accent-color);
 }
-.logo{
+.logo-link{
     font-family: var(--secondary-font);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height:1.16;
+    line-height:1.17;
     letter-spacing: 0.03em;
-    color: var(--button-color));
+    text-transform: uppercase;
+    color: var(--button-color);
 }
 .logo2{
         font-family: var(--secondary-font);
@@ -120,11 +123,15 @@ background-color: var(--dark-background-color);
         color: var(--text-white-color);
  }
  .button:hover,
- .button:active{
-background: var(--accent-color);
+ .button:focus{
+background-color: var(--accent-color);
+
  }
 
  /* features styles*/
+ .features-hidden-title{
+   visibility: hidden;
+ }
 
  .features-title{
         font-family: var(--primary-font);
@@ -153,20 +160,28 @@ background: var(--accent-color);
         font-size: 36px;
         line-height:1.11;
         text-align: center;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
         color: var(--primary-text-color);
  }
 
  /*team styles*/
 
+ .team{
+    background-color: var(--secondary-background-color);
+ }
+ .team-list-item{
+    background-color: var(--text-white-color);
+ }
  .team-title{
         font-family: var(--primary-font);
         font-style: normal;
         font-weight: 500;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 1.2;
         text-align: center;
         letter-spacing: 0.02em;
+        text-transform: capitalize;
         color: var(--primary-text-color);
  }
  .team-pharmacy{
@@ -176,7 +191,7 @@ background: var(--accent-color);
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     color: var(--text-color);
  }
 
@@ -196,6 +211,9 @@ font-family: 'Roboto';
  }
 
  /* portfolio styles */
+ .portfolio-main-title{
+    visibility: hidden;
+ }
 .portfolio-button{
         font-family: var(--primary-font);
         font-style: normal;
