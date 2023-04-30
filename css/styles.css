@@ -82,7 +82,7 @@ button{
         font-size: 18px;
         line-height: 1.16;
         letter-spacing: 0.03em;
-        color:#000;
+        color:var(--primary-text-color);
 
 
 }
@@ -197,7 +197,7 @@ background-color: var(--accent-color);
      font-size: 18px;
      line-height: 1.16;
      letter-spacing: 0.03em;
-     color: var(--text-white-color);
+     color: var(--secondary-background-color);
  }
  .footer{
     background-color: var(--dark-background-color);
@@ -224,9 +224,11 @@ font-family: 'Roboto';
         line-height: 1.5;
         text-align: center;
         letter-spacing: 0.04em;
+        background-color: var(--secondary-background-color);
         color: var(--button-color);
 }
-.portfolio-button:hover{
+.portfolio-button:hover,
+.portfolio-button:focus{
 color: var(--text-white-color);
 background: var(--accent-color);
 }
